@@ -40,29 +40,29 @@ Developed a model using SARIMA's time series approach to forecast mean wages in 
 
 ## **Natural Language Processing**
 
-### 1. [Kaggle: Jigsaw Unintended Bias in Toxicity Classification](https://github.com/akuritsyn/kaggle-jigsaw) - top 1% (17/3165)
+### 7. [Kaggle: Jigsaw Unintended Bias in Toxicity Classification](https://github.com/akuritsyn/kaggle-jigsaw) - top 1% (17/3165)
 The goal of this Kaggle competition organized by Jigsaw and Google is to build a model that recognizes toxicity in online conversations, where toxicity is defined as anything rude, disrespectful or otherwise likely to make someone leave a discussion.\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The first developed toxicity models incorrectly learned to associate the names of frequently attacked identities with toxicity. Models predicted a high likelihood of toxicity for comments containing those identities (e.g. "gay"), even when those comments were not actually toxic (such as "I am a gay woman"). This happens because training data was pulled from available sources where unfortunately, certain identities are overwhelmingly referred to in offensive ways. Training a model from data with these imbalances risks simply mirroring those biases back to users.\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We were challenged to build a model that recognizes toxicity and minimizes this type of unintended bias with respect to mentions of identities using a dataset labeled for identity mentions and optimizing a metric designed to measure unintended bias.\
 **Keywords:** Classification, NLP, BERT, RNN, LSTM, embeddings, model ensembling, PyTorch, Nvidia GPU
 </br>
 </br>
-### 2. [Coursera: Stackoverflow Assistant NLP Chatbot Accessible via Telegram](https://github.com/akuritsyn/Machine_Learning_Projects/tree/master/StackOverflowAssistantBot)
+### 8. [Coursera: Stackoverflow Assistant NLP Chatbot Accessible via Telegram](https://github.com/akuritsyn/Machine_Learning_Projects/tree/master/StackOverflowAssistantBot)
 Built a chatbot running on AWS and accessible via Telegram messenger. The chatbot is able to (1) answer programming questions using Stackoverflow dataset and (2) chit-chat and simulate dialogue on all non-programming related questions.\
 **Keywords:** Classification, NLP, bag-of-words, tf-idf, embeddings, cosine similarity, scikit-learn, AWS EC2, Telegram, Docker. 
 </br>
 </br>
-### 3. [Udacity: Movie Sentiment Analysis Web App](https://github.com/akuritsyn/udacity-ml-nanodegree/tree/master/sentiment-analysis-model)
+### 9. [Udacity: Movie Sentiment Analysis Web App](https://github.com/akuritsyn/udacity-ml-nanodegree/tree/master/sentiment-analysis-model)
 Built a web app hosted on AWS to determine movie review sentiment. Converted text reviews into numerical representation and built a model is using LSTM classifier in PyTorch.\
 **Keywords:** Classification, NLP, RNN, LSTM, scikit-learn, PyTorch, AWS Sagemaker, AWS Lambda, Amazon S3, Amazon API Gateway
 </br>
 </br>
-### 4. [Udacity: Plagiarism Detector](https://github.com/akuritsyn/udacity-ml-nanodegree/tree/master/plagiarism-detection)
+### 10. [Udacity: Plagiarism Detector](https://github.com/akuritsyn/udacity-ml-nanodegree/tree/master/plagiarism-detection)
 Built a plagiarism detector that examines a text file and performs binary classification, labeling that file as either plagiarized or not, depending on how similar the text file is when compared to a provided source text. Extracted similarity features from texts based on common n-gram counts (containment) and longest common subsequence (LCS) and employed a random forest classifier trained on AWS Sagemaker.\
 **Keywords:** Classification, NLP, n-grams, Random Forest,  AWS Sagemaker, Amazon S3
 </br>
 </br>
-### 5. [Coursera: Movie Sentiment Analysis Web App #2](https://github.com/akuritsyn/udacity-ml-nanodegree/tree/master/sentiment-analysis-model)
+### 11. [Coursera: Movie Sentiment Analysis Web App #2](https://github.com/akuritsyn/udacity-ml-nanodegree/tree/master/sentiment-analysis-model)
 Built a web app hosted on AWS to determine movie review sentiment. A pipeline consisting of a CountVectorizer, tf-idf and LinearSVC is employed to build a classifier, then a standard ntlk data set is used for classifier training, and finally a web demo is created using flask.\
 **Keywords:** Classification, NLP, scikit-learn pipeline, nltk, tf-idf, Flask, AWS EC2
 </br>
@@ -71,30 +71,27 @@ Built a web app hosted on AWS to determine movie review sentiment. A pipeline co
 
 ## **Computer Vision**
 
-### 1. [Kaggle: Recognizing Faces in the Wild](https://github.com/akuritsyn/kaggle-recognizing-faces) - top 1% (4/458)
+### 12. [Kaggle: Recognizing Faces in the Wild](https://github.com/akuritsyn/kaggle-recognizing-faces) - top 1% (4/458)
 The goal of this competetion is to determine if two people are blood-related based solely on images of their faces. Built a classifier using a VGGFace siamese CNN model with a modified architecture.\
 **Keywords:** Image classification, Siamese CNN,VGG-Face, ResNet50, Keras, Nvidia GPU
 </br>
 </br>
-### 2. [Kaggle: SIIM-ACR Pneumothorax Segmentation](https://github.com/akuritsyn/kaggle-recognizing-faces) - top 4% (50/1475)
+### 13. [Kaggle: SIIM-ACR Pneumothorax Segmentation](https://github.com/akuritsyn/kaggle-recognizing-faces) - top 4% (50/1475)
 Developed a model to classify (and if present, segment) pneumothorax (collapsed lungs) from a set of chest radiographic images. The final model is based on an ensemble of Unet models with pretrained (on ImageNet) EfficientNetB4 and ResNet34 encoders in Keras and PyTorch averaged over folds.\
 **Keywords:** Image segmentation, CNN, Unet, augmentations, EfficientNetB4, ResNet34, ensembling, Keras, PyTorch, Nvidia GPU
 </br>
 </br>
-### 3. [Kaggle: RSNA Intracranial Hemorrhage Detection](https://github.com/akuritsyn/kaggle-rsna-intracranial-hemorrhage) - top 5% (56/1345)
+### 14. [Kaggle: RSNA Intracranial Hemorrhage Detection](https://github.com/akuritsyn/kaggle-rsna-intracranial-hemorrhage) - top 5% (56/1345)
 Built a model based on ResNext50_32x4d pretrained on ImageNet to detect acute intracranial hemorrhage and its subtypes.\
 **Keywords:** Image classification, CNN, augmentations, ResNext50_32x4d, ensembling, PyTorch, Nvidia GPU
 </br>
 </br>
-### 4. [Kaggle: Severstal: Steel Defect Detection](https://www.kaggle.com/c/severstal-steel-defect-detection) - top 8% (181/2431)
+### 15. [Kaggle: Severstal: Steel Defect Detection](https://www.kaggle.com/c/severstal-steel-defect-detection) - top 8% (181/2431)
 Built a model to classify surface defects in steel.\
 **Keywords:** Image classification, CNN, augmentations, ensembling, PyTorch, Nvidia GPU
 </br>
 </br>
-### 5. [Kaggle: TGS Salt Identification](https://github.com/akuritsyn/TGS_Salt_Identification_Challenge) - top 12% (368/3229)
+### 16. [Kaggle: TGS Salt Identification](https://github.com/akuritsyn/TGS_Salt_Identification_Challenge) - top 12% (368/3229)
 Developed a segmentation model to identify salt deposits beneath the Earth's surface based on seismic images  using Unet CNN.\
 **Keywords:** Image segmentation, CNN, Unet, augmentations, ResNet34, ensembling, Keras, Nvidia GPU
-
-
-
 

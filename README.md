@@ -10,7 +10,7 @@ The goal of the Customer Churn Prediction project is to find clients of a teleco
 **Keywords:** Classification, feature engineering, one-hot encoding, scikit-learn, pandas, XGBoost, ROC AUC
 </br>
 </br>
-### 2. [Kaggle: Identification of internet users based on their internet behavior](https://github.com/akuritsyn/Machine_Learning_Projects/tree/master/User_Identification) - top 9%
+### 2. [Kaggle: Identification of internet users based on their behavior](https://github.com/akuritsyn/Machine_Learning_Projects/tree/master/User_Identification) - top 9%
 In this project we are solving a problem of user identification based on their behavior on the Internet. This is a complex and interesting problem at a junction of data science and behavioral phsycology. For example, many email providers are trying to identify email hackers based on their behavior. Obviously, a hacker will behave differently than the email owner: he may not be deleting emails after reading them as the email owner used to do, he will be marking messages differently, etc. If this is a case, such an intruder can be identified and expelled from the email box by offering the true owner to enter his email acccount by using a code sent via SMS. In data science such problems are called "Traversal Pattern Mining" or "Sequential Pattern Mining". Such problems are solved, for example, by a Google analytics team.\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Here, we will attempt to identify a person based on data about websites sequentially visited by him/her. The idea is that users move differently between websites and this can help to identify them.\
 **Keywords:** Classification, feature engineering, one-hot encoding, scikit-learn, pandas, XGBoost, Vowpal Wabbit, tf-idf

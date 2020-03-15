@@ -62,7 +62,7 @@ Built a plagiarism detector that examines a text file and performs binary classi
 **Keywords:** Classification, NLP, n-grams, Random Forest,  AWS Sagemaker, Amazon S3
 </br>
 </br>
-### 11. [Coursera: Movie Sentiment Analysis Web App #2](https://github.com/akuritsyn/udacity-ml-nanodegree/tree/master/sentiment-analysis-model)
+### 11. [Coursera: Movie Sentiment Analysis Web App #2](https://github.com/akuritsyn/Machine_Learning_Projects/tree/master/Movie_Sentiment_Classifier)
 Built a web app hosted on AWS to determine movie review sentiment. A pipeline consisting of a CountVectorizer, tf-idf and LinearSVC is employed to build a classifier, then a standard ntlk data set is used for classifier training, and finally a web demo is created using flask.\
 **Keywords:** Classification, NLP, scikit-learn pipeline, nltk, tf-idf, Flask, AWS EC2
 </br>
@@ -76,7 +76,7 @@ The goal of this competetion is to determine if two people are blood-related bas
 **Keywords:** Image classification, Siamese CNN,VGG-Face, ResNet50, Keras, Nvidia GPU
 </br>
 </br>
-### 13. [Kaggle: SIIM-ACR Pneumothorax Segmentation](https://github.com/akuritsyn/kaggle-recognizing-faces) - top 4% (50/1475)
+### 13. [Kaggle: SIIM-ACR Pneumothorax Segmentation](https://github.com/akuritsyn/kaggle-pneumothorax) - top 4% (50/1475)
 Developed a model to classify (and if present, segment) pneumothorax (collapsed lungs) from a set of chest radiographic images. The final model is based on an ensemble of Unet models with pretrained (on ImageNet) EfficientNetB4 and ResNet34 encoders in Keras and PyTorch averaged over folds.\
 **Keywords:** Image segmentation, CNN, Unet, augmentations, EfficientNetB4, ResNet34, ensembling, Keras, PyTorch, Nvidia GPU
 </br>

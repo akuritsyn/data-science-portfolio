@@ -78,8 +78,8 @@ The goal of this competetion is to determine if two people are blood-related bas
 </br>
 ### 13. [Kaggle: SIIM-ACR Pneumothorax Segmentation](https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation) - top 4% (50/1475)
 Developed a model to classify (and if present, segment) pneumothorax (collapsed lungs) from a set of chest radiographic images. \
-- [Modular code based on PyTorch only developed for Udacity ML Engineer Nanodegree Capstone project](https://github.com/akuritsyn/udacity-ml-nanodegree/tree/master/pneumothorax); [final report](https://github.com/akuritsyn/udacity-ml-nanodegree/blob/master/pneumothorax/capstone-final-report.pdf). \
-- [Initial model](https://github.com/akuritsyn/kaggle-pneumothorax) based on an ensemble of Unet models with pretrained (on ImageNet) EfficientNetB4 and ResNet34 encoders in Keras and PyTorch averaged over folds.\
+[Modular code based on PyTorch only developed for Udacity ML Engineer Nanodegree Capstone project](https://github.com/akuritsyn/udacity-ml-nanodegree/tree/master/pneumothorax); [final report](https://github.com/akuritsyn/udacity-ml-nanodegree/blob/master/pneumothorax/capstone-final-report.pdf). \
+[Initial model](https://github.com/akuritsyn/kaggle-pneumothorax) based on an ensemble of Unet models with pretrained (on ImageNet) EfficientNetB4 and ResNet34 encoders in Keras and PyTorch averaged over folds.\
 **Keywords:** Image segmentation, medical-imaging, CNN, Unet, augmentations, EfficientNetB4, ResNet34, ensembling, Keras, PyTorch, Nvidia GPU \
 </br>
 </br>

@@ -22,7 +22,7 @@ Built a a model to predict prices of the residential homes in Ames, Iowa. Employ
 </br>
 </br>
 ### 4. [Annual Income Prediction](https://github.com/akuritsyn/Machine_Learning_Projects/tree/master/Income_Prediction)
-The goal of this Kaggle competition organized by Jigsaw and Google is to build a model that recognizes toxicity in online conversations, where toxicity is defined as anything rude, disrespectful or otherwise likely to make someone leave a discussion.\
+Performed EDA and developed a kNN-based classification model to predict adult's annual icome based on information about his education, work history, marital status, etc.\
 **Keywords:** Classification, EDA, feature engineering, kNN, scikit-learn, pandas, fastai
 </br>
 </br>
@@ -76,14 +76,16 @@ The goal of this competetion is to determine if two people are blood-related bas
 **Keywords:** Image classification, Siamese CNN,VGG-Face, ResNet50, Keras, Nvidia GPU
 </br>
 </br>
-### 13. [Kaggle: SIIM-ACR Pneumothorax Segmentation](https://github.com/akuritsyn/kaggle-pneumothorax) - top 4% (50/1475)
-Developed a model to classify (and if present, segment) pneumothorax (collapsed lungs) from a set of chest radiographic images. The final model is based on an ensemble of Unet models with pretrained (on ImageNet) EfficientNetB4 and ResNet34 encoders in Keras and PyTorch averaged over folds.\
-**Keywords:** Image segmentation, CNN, Unet, augmentations, EfficientNetB4, ResNet34, ensembling, Keras, PyTorch, Nvidia GPU
+### 13. [Kaggle: SIIM-ACR Pneumothorax Segmentation](https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation) - top 4% (50/1475)
+Developed a model to classify (and if present, segment) pneumothorax (collapsed lungs) from a set of chest radiographic images. 
+- [Modular code based on PyTorch only developed for Udacity ML Engineer Nanodegree Capstone project](https://github.com/akuritsyn/udacity-ml-nanodegree/tree/master/pneumothorax), [final report](https://github.com/akuritsyn/udacity-ml-nanodegree/blob/master/pneumothorax/capstone-final-report.pdf)
+- [Initial model](https://github.com/akuritsyn/kaggle-pneumothorax) based on an ensemble of Unet models with pretrained (on ImageNet) EfficientNetB4 and ResNet34 encoders in Keras and PyTorch averaged over folds.\
+**Keywords:** Image segmentation, medical-imaging, CNN, Unet, augmentations, EfficientNetB4, ResNet34, ensembling, Keras, PyTorch, Nvidia GPU
 </br>
 </br>
 ### 14. [Kaggle: RSNA Intracranial Hemorrhage Detection](https://github.com/akuritsyn/kaggle-rsna-intracranial-hemorrhage) - top 5% (56/1345)
 Built a model based on ResNext50_32x4d pretrained on ImageNet to detect acute intracranial hemorrhage and its subtypes.\
-**Keywords:** Image classification, CNN, augmentations, ResNext50_32x4d, ensembling, PyTorch, Nvidia GPU
+**Keywords:** Image classification, medical-imaging, CNN, augmentations, ResNext50_32x4d, ensembling, PyTorch, Nvidia GPU
 </br>
 </br>
 ### 15. [Kaggle: Severstal: Steel Defect Detection](https://www.kaggle.com/c/severstal-steel-defect-detection) - top 8% (181/2431)
